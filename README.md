@@ -12,6 +12,10 @@
 <code><img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Windows_logo_-_2012.svg" width="24" /></code>
 </a>
 
+<a href="https://github.com/zjuyk">
+  <img align="right" src="https://github-readme-stats.vercel.app/api?username=zjuyk&count_private=true&show_icons=true&theme=nord" />
+</a>
+
 **DE:**
 <a href="https://www.kde.org">
 <code><img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/KDE_logo.svg" width="24" /></code>
@@ -50,4 +54,3 @@
 <a>_History of China_、_Light Music_</a>
 
 **Major:** _Computer Science_
-
