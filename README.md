@@ -1,4 +1,12 @@
-**OS:**
+<a href="https://metrics.lecoq.io/about/zjuyk">
+  <img align="left" width="400" src="./metrics_left.svg" />
+  <img align="right" width="400" src="./metrics_right.svg" />
+  <img align="right" width="100%" src="./metrics_bottom.svg" />
+</a>
+
+
+
+<!-- **OS:**
 <a href="https://www.archlinux.org">
 <code><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Archlinux-icon-crystal-64.svg" width="24" /></code>
 </a>
@@ -10,13 +18,15 @@
 </a>
 <a href="https://www.microsoft.com/en-us/software-download/windows11">
 <code><img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Windows_logo_-_2012.svg" width="24" /></code>
-</a>
+</a> -->
 
+<!--
 <a href="https://github.com/zjuyk">
   <img align="right" src="https://github-readme-stats.vercel.app/api?username=zjuyk&count_private=true&show_icons=true&theme=nord" />
 </a>
+-->
 
-**DE:**
+<!-- **DE:**
 <a href="https://www.kde.org">
 <code><img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/KDE_logo.svg" width="24" /></code>
 </a>
@@ -53,4 +63,4 @@
 **Hobby:**
 <a>_History of China_、_Light Music_</a>
 
-**Major:** _Computer Science_
+**Major:** _Computer Science_ -->

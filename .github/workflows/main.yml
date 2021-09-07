@@ -1,0 +1,43 @@
+name: Metrics
+on:
+  schedule: 
+    - cron: "0 0-23/4 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: left side
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics_left.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          template: classic
+      
+      - name: right side
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics_right.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_notable: yes
+          plugin_notable_filter: stars:>500
+          plugin_notable_repositories: yes
+
+      - name: bottom
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics_bottom.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          config_display: large
+
